@@ -2,7 +2,7 @@ public class PayRoll {
 
     public static void main(String[] args) {
         // InputView 객체 생성 (급여 정보를 입력받는 역할)
-        InputView inputView = new InputView();
+        InputView inputView = new InputView("text.txt");
 
         // OutputView 객체 생성 (급여 계산 결과를 출력하는 역할)
         OutputView outputView = new OutputView();
