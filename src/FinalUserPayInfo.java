@@ -19,13 +19,4 @@ public class FinalUserPayInfo {
     public String toString() {
         return "이름: " + name + ", 금액: " + amount;
     }
-
-    // getter
-    public String getName() {
-        return name;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
 }
