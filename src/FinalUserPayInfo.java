@@ -17,6 +17,6 @@ public class FinalUserPayInfo {
     // toString() 메서드를 오버라이드하여 출력 형식을 지정
     @Override
     public String toString() {
-        return "이름: " + name + ", 금액: " + amount;
+        return "이름: " + name + ", 금액: " + String.format("%.1f", amount);
     }
 }
